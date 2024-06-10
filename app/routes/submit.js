@@ -1,6 +1,6 @@
 const express = require("express");
-const { launchBot } = require("../helper/launcher");
-const { fillCaptchaAndExtractMarks } = require("../helper/captchaHandler");
+const { launchBot } = require("../services/launcher");
+const { fillCaptchaAndExtractMarks } = require("../services/captchaHandler");
 const router = express.Router();
 const sessions = {};
 
